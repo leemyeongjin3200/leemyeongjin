@@ -1,6 +1,7 @@
 package ex01;
 
 import ex02.C;
+import ex02.D;
 
 public class MainClass {
 
@@ -13,6 +14,14 @@ public class MainClass {
 		
 		C c=new C();
 		System.out.println("연습이요");
+		
+		D d=new D();
+		System.out.println("연습 연습");
+		
+		a.disp();
+		b.disp();
+		c.disp();
+		d.disp();
 	}
 
 }
